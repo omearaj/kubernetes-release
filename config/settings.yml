@@ -1,0 +1,9 @@
+---
+provider:
+  name: aws
+  credentials:
+    aws_access_key_id: AKIAJ3HCLRUCCBO6Q2ZQ
+    aws_secret_access_key: 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
+  region: us-east-1
+blobstore:
+  name: k8-boshrelease

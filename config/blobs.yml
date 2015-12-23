@@ -43,3 +43,7 @@ golang/go1.4.2.linux-amd64.tar.gz:
   object_id: a32e922f-57e0-4428-b32a-6b531464faa3
   sha: 5020af94b52b65cc9b6f11d50a67e4bae07b0aff
   size: 62442704
+docker/docker-1.9.1:
+  object_id: 776d45ff-f857-4f64-981d-4d9d8edc9311
+  sha: 424920b09c24d7c7876cc35d8aabd2aa52b8e39e
+  size: 30222575
