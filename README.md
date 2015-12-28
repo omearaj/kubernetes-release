@@ -7,7 +7,7 @@ Deploy [Kubernetes](http://kubernetes.io) easily with this
 
 * Install [BOSH Lite](https://github.com/cloudfoundry/bosh-lite) and
   boot the Vagrant VM.
-* deploy Kubernetes:
+* Deploy Kubernetes:
 
 ```
 $ bosh upload stemcell https://s3.amazonaws.com/bosh-jenkins-artifacts/bosh-stemcell/warden/bosh-stemcell-389-warden-boshlite-ubuntu-trusty-go_agent.tgz
