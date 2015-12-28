@@ -35,3 +35,7 @@ docker/docker-1.9.1:
   object_id: 776d45ff-f857-4f64-981d-4d9d8edc9311
   sha: 424920b09c24d7c7876cc35d8aabd2aa52b8e39e
   size: 30222575
+golang/go1.2.1.linux-amd64.tar.gz:
+  object_id: 5ee2c0de-cece-4320-b5a5-4d2ed376cc97
+  sha: 7605f577ff6ac2d608a3a4e829b255ae2ebc8dcf
+  size: 56123695
