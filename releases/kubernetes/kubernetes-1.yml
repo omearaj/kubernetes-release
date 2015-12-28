@@ -1,0 +1,113 @@
+---
+packages:
+- name: bosh-helpers
+  version: 55717f488eb12fd47c95fd524ab1cd6304c7ce7e
+  fingerprint: 55717f488eb12fd47c95fd524ab1cd6304c7ce7e
+  sha1: 7941540902993b75c331775205769145076a07b3
+  dependencies: []
+- name: common
+  version: a582714be57d8cfebe0e10099e2cd2d4b359a414
+  fingerprint: a582714be57d8cfebe0e10099e2cd2d4b359a414
+  sha1: 44a00fd76b16e5bbe51b7f037d0a6f162a83c6ae
+  dependencies: []
+- name: docker
+  version: 30c1f74eb8c57cad36c454f27284e33c96f96cbf
+  fingerprint: 30c1f74eb8c57cad36c454f27284e33c96f96cbf
+  sha1: 616afaf2fde93d0e9695ec90f5ecffebe1839f7c
+  dependencies: []
+- name: etcd
+  version: 34d182b10e7dce52dcf342f3fc3a64a775dfa537
+  fingerprint: 34d182b10e7dce52dcf342f3fc3a64a775dfa537
+  sha1: 04617a55bf13446eace44846fe698a5ccdcfbed4
+  dependencies:
+  - golang1.4
+- name: etcdctl
+  version: 938096b89e64a75d130fe63532695ae057e41866
+  fingerprint: 938096b89e64a75d130fe63532695ae057e41866
+  sha1: 6215a06ca0e4cf30958b0ed04ab00250740e6230
+  dependencies:
+  - git
+  - golang
+- name: flannel
+  version: 7e08b1433c8a05154e125acf73493be6a2f58c9c
+  fingerprint: 7e08b1433c8a05154e125acf73493be6a2f58c9c
+  sha1: d1a1be21c3016a8a6632767db22b1702654fede4
+  dependencies:
+  - git
+  - golang
+- name: git
+  version: 889205bef999ca6f078d4ee7b779186b45c1fa63
+  fingerprint: 889205bef999ca6f078d4ee7b779186b45c1fa63
+  sha1: 9c33b8787d5078ad6b4a1fd6cf81c3936252f404
+  dependencies: []
+- name: golang
+  version: aa5f90f06ada376085414bfc0c56c8cd67abba9c
+  fingerprint: aa5f90f06ada376085414bfc0c56c8cd67abba9c
+  sha1: 861922d93c5459718826dc16d07c081f9d42587e
+  dependencies: []
+- name: golang1.4
+  version: f57ddbc8d55d7a0f08775bf76bb6a27dc98c7ea7
+  fingerprint: f57ddbc8d55d7a0f08775bf76bb6a27dc98c7ea7
+  sha1: 9e48b4e8e6a20b67a04837dfa86d3e4a59d9340a
+  dependencies: []
+- name: guestbook-example
+  version: 1e94841ef68dc36ec3a79a6cdd0086c72e635cb3
+  fingerprint: 1e94841ef68dc36ec3a79a6cdd0086c72e635cb3
+  sha1: 99eda71c7469b8114919626ee683404b3f77e5ff
+  dependencies: []
+- name: kubernetes
+  version: 45598fee1467d6b4d37d43d55df52b3a68d6c00c
+  fingerprint: 45598fee1467d6b4d37d43d55df52b3a68d6c00c
+  sha1: 7daebc2ff2a09da72841539c318204794be305ee
+  dependencies:
+  - git
+  - golang1.4
+  - mercurial
+- name: mercurial
+  version: 0deb3f48206b4d4bd7aeb9e2f67ccc3371cce1df
+  fingerprint: 0deb3f48206b4d4bd7aeb9e2f67ccc3371cce1df
+  sha1: 050a1b63b6bd1e8081d2671e226f4920c752084a
+  dependencies:
+  - python
+- name: python
+  version: 2ba6298a45ec74b87e1af08b9b49d7fb63d6b785
+  fingerprint: 2ba6298a45ec74b87e1af08b9b49d7fb63d6b785
+  sha1: 9d9d9f3985eeaea1c07fac44857de7f08d798752
+  dependencies: []
+jobs:
+- name: create-kubernetes-dns
+  version: 1f898ee26f32e26cac6ce7e4422349be6c0e5a4c
+  fingerprint: 1f898ee26f32e26cac6ce7e4422349be6c0e5a4c
+  sha1: 24be4a97a60e9038b797f17ed59ea4ab5f56f852
+- name: docker
+  version: 8e0639c196c377595c7eef6d4cd1f5ea56248c7c
+  fingerprint: 8e0639c196c377595c7eef6d4cd1f5ea56248c7c
+  sha1: 1a4ea0b6e1782d7e542d4087dd57cd7010d189e8
+- name: etcd
+  version: 0695df8bb8529d7d8c5f4135f3be8d94c67c9c33
+  fingerprint: 0695df8bb8529d7d8c5f4135f3be8d94c67c9c33
+  sha1: 317e1e49e417883ddf25c7ae39b500334b4850c4
+- name: flannel
+  version: dfdd1076d7bd62342044a164e13aa8930a88c79d
+  fingerprint: dfdd1076d7bd62342044a164e13aa8930a88c79d
+  sha1: 4ccffc45f8029bf9ee5b1479eaaba7733402426a
+- name: guestbook-example
+  version: f994ee0bc7ae569e158b855bc0e49b7bd4dc9fa0
+  fingerprint: f994ee0bc7ae569e158b855bc0e49b7bd4dc9fa0
+  sha1: 18001d91b9d386cae292f7933bdea07776773fa4
+- name: kubernetes-master
+  version: 07474df5b6c730d1455b2c93cf35c781c604356a
+  fingerprint: 07474df5b6c730d1455b2c93cf35c781c604356a
+  sha1: 0f864be351a821dff67b922e815a2f08677fb5dd
+- name: kubernetes-minion
+  version: 049fc5c310e6829f1a7c5398c16c3e398d51c984
+  fingerprint: 049fc5c310e6829f1a7c5398c16c3e398d51c984
+  sha1: c6598b2bbc1b8cd3a0651b9e86d3d031d9201b4b
+license:
+  version: 0fbc9511a7e7f3a4d2f1af47f5ed327237b5f06c
+  fingerprint: 0fbc9511a7e7f3a4d2f1af47f5ed327237b5f06c
+  sha1: 9f74fa82205e94654b6f9364b054c7fd3d5026fc
+commit_hash: 8c5dec86
+uncommitted_changes: true
+name: kubernetes
+version: '1'
